@@ -123,8 +123,9 @@ class player:
                 turno_player = True
 
     def yours(self):
+        si = ['si','Si','SI','sI','yes','Yes','YES']
         opcion= input('Quiere poner su nombres: Si/no: ')
-        if  opcion == 'si':
+        if  opcion in si:
             nombres = input('Por favor escriba su nombre: ')
             self.pase= str(nombres)
             time.sleep(.5)
@@ -132,9 +133,10 @@ class player:
         else:
             self.pase= None
     def Repetir(self):
+        si = ['si','Si','SI','sI','yes','Yes','YES']
         print('Quiere jugar otra vez? Si/No')
         opcion = input()
-        if  opcion == 'si':
+        if  opcion in si:
             player().clear()
             player().jugar()
     def jugar(self):
