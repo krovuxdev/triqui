@@ -4,11 +4,13 @@
 
 ![Triqui](Img/triqui2.png)
 
-## Como jugar en terminal
+## Como jugar en la terminal
 ```bash
 python triqui.py
 ```
 ```bash
 python3 triqui.py
 ```
-
+```bash
+python -m  triqui
+```
