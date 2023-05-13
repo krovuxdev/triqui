@@ -12,5 +12,5 @@ python triqui.py
 python3 triqui.py
 ```
 ```bash
-python -m  triqui
+python -m triqui
 ```
